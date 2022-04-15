@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+body{
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+}
+
+.sidebar{
+    min-width: 200px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-text{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.figure{
+    display: flex;
+}
+.vertical-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-menu > a {
+    font-size: 20px;
+    border-top: 1px solid black;
+    padding: 15px;
+    color: #2b2b2b;
+
+}
+
+
+.vertical-menu > a:hover{
+    color:#2b2bb2
+    ; 
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+
+.footer > p {
+    font-weight: bold;
+}
+
+    </style>
+
+</head>
+<body>
+    
+<aside class="sidebar">
+
+    <figure>
+        <img src="https://platform.develhope.co/assets/images/brand/develhope_black.svg" alt="" srcset="">
+    </figure>
+
+    <div class="vertical-menu">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+      </div>
+
+      
+    
+
+      
+
+      <div class="footer">
+        
+        <figure>
+          <img src="assets/image-profile.png" width="50px" alt="" srcset="">
+      </figure>
+      <p>Jonathan Biasella</p>
+      </div>
+</aside>
+
+
+
+
+
+</body>
+
+
+
+
+</html>
